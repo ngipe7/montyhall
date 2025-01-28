@@ -3,7 +3,7 @@ Title: Monty Hall 3 Doors Edition
 Version: 0.0.0.9000
 Authors@R: 
     person("Nichole", "Gipe", , "ngipe@asu.edu", role = c("aut", "cre"))
-Description: "This package determines whether staying with the original door choice or switching doors is a winning strategy for the 3 doors version of the Monty Hall Problem." 
+Description: "This package is a learning assigngment that is meant to determine whether staying with the original door choice or switching doors is a winning strategy for the 3 doors version of the Monty Hall Problem." 
 Depends: dplyr
 License: use_mit_license()
 Encoding: UTF-8
