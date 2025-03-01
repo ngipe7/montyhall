@@ -74,11 +74,11 @@ select_door <- function( )
 #' reveals a goat door, leaving the contestant with their choice and one 
 #' other door. One of the remaining two doors has a car and the other has a goat. 
 #'
-#' @param "game" is a character vector.
+#' @param game Character vector.
 #'
-#' @param "a.pick" is a numeric integer.
+#' @param a.pick Numeric integer.
 #'
-#' @return The function returns a numeric vector.
+#' @return Numeric vector.
 #'
 #' @examples
 #' open_goat_door()
@@ -115,13 +115,13 @@ open_goat_door <- function( game, a.pick )
 #' This function performs the third step in the game where the contestant chooses 
 #' to stay with their original door or switch doors, now that a goat door has been revealed. 
 #'
-#' @param stay=T is a logical value meaning stay equals true.
+#' @param stay=T Logical value meaning stay equals true.
 #'
-#' @param "opened.door" is a numeric integer.
+#' @param opened.door Numeric integer.
 #'
-#' @param "a.pick" is a numeric integer.
+#' @param a.pick Numeric integer.
 #'
-#' @return This function returns a numeric vector. 
+#' @return Numeric vector. 
 #'
 #' @examples
 #' change_door()
@@ -159,9 +159,9 @@ change_door <- function( stay=T, opened.door, a.pick )
 #' where the contestants results are determined using if functions 
 #' that show win for car and lose for goat.
 #'
-#' @param "final.pick" is a numeric integer.
+#' @param final.pick Numeric integer.
 #'
-#' @param "game" is a character vector.
+#' @param game Character vector.
 #'
 #' @return This function returns a character vector.  
 #' @examples
